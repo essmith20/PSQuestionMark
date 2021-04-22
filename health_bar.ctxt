@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=health_bar
+comment0.text=\n\ Write\ a\ description\ of\ class\ health_bar\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=health_bar()
+comment2.params=
+comment2.target=int\ getHealth()
+comment3.params=
+comment3.target=void\ takeHit()
+numComments=4
