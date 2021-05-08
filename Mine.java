@@ -22,7 +22,14 @@ public class Mine extends Obstacles
     }
     public void act() 
     {
-        
+      if(isTouching(Dragon.class)){
+            GreenfootImage mineExplosion = new GreenfootImage("mineExplosion.png");
+            mineExplosion.scale(40, 40);
+            setImage(mineExplosion);
+            Greenfoot.delay(5);
+            getWorld().removeObject(this);
+            
+        }  
         
     }    
 }
