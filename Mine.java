@@ -29,7 +29,7 @@ public class Mine extends Obstacles
             Greenfoot.delay(5);
             getWorld().removeObject(this);
             
-        }  
+        } 
         
     }    
 }
